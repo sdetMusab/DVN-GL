@@ -1,0 +1,132 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-08T21:04:14.093Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9058256900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.step_definitions.Hook.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Go several locations and confirm that everything is up and running",
+        "description": "",
+        "id": "user-should-be-able-to-a-monkey-test-on-ui;go-several-locations-and-confirm-that-everything-is-up-and-running",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.step_definitions.Hook.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7589063800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter the valid credentials to login into DVNGL",
+            "match": {
+              "location": "com.step_definitions.MainPage_StepDefinition.enter_the_valid_credentials_to_login_into_DVNGL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 502711600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on Marketplace on the Dashboard",
+            "match": {
+              "location": "com.step_definitions.MainPage_StepDefinition.click_on_Marketplace_on_the_Dashboard()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3717497900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Select the CyberSecurity checkbox print the number of results",
+            "match": {
+              "location": "com.step_definitions.MainPage_StepDefinition.select_the_CyberSecurity_checkbox_print_the_number_of_results()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1205306400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Select the Network Storm and click on see prices and buy",
+            "match": {
+              "location": "com.step_definitions.MainPage_StepDefinition.select_the_Network_Storm_and_click_on_see_prices_and_buy()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1450952000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "From the Single user section see the price and click on buy now then click I accept",
+            "match": {
+              "location": "com.step_definitions.MainPage_StepDefinition.from_the_Single_user_section_see_the_price_and_click_on_buy_now_then_click_I_accept()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1176149300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Verify that the price has seen on the screen and email address has a warning message",
+            "match": {
+              "location": "com.step_definitions.MainPage_StepDefinition.verify_that_the_price_has_seen_on_the_screen_and_email_address_has_a_warning_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@task"
+          }
+        ]
+      }
+    ],
+    "name": "User should be able to a monkey test on UI",
+    "description": "",
+    "id": "user-should-be-able-to-a-monkey-test-on-ui",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/main.feature",
+    "tags": [
+      {
+        "name": "@task",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
