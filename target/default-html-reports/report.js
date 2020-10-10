@@ -73,11 +73,11 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Verify that the price has seen on the screen and email address has a warning message",
+  "name": "Verify that the price has been seen on the screen and email address has a warning message",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "com.step_definitions.MainPage_StepDefinition.verify_that_the_price_has_seen_on_the_screen_and_email_address_has_a_warning_message()"
+  "location": "com.step_definitions.MainPage_StepDefinition.verify_that_the_price_has_been_seen_on_the_screen_and_email_address_has_a_warning_message()"
 });
 formatter.result({
   "status": "passed"

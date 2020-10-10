@@ -8,4 +8,4 @@ Feature: User should be able to a monkey test on UI
     When  Select the CyberSecurity checkbox print the number of results
     And   Select the Network Storm and click on see prices and buy
     And   From the Single user section see the price and click on buy now then click I accept
-    Then  Verify that the price has seen on the screen and email address has a warning message
+    Then  Verify that the price has been seen on the screen and email address has a warning message

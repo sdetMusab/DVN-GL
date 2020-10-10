@@ -3,11 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-10-08T21:04:14.093Z",
+        "start_timestamp": "2020-10-09T14:06:40.083Z",
         "before": [
           {
             "result": {
-              "duration": 9058256900,
+              "duration": 9760273800,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 1000000,
+              "duration": 665231400,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7589063800,
+              "duration": 5793413400,
               "status": "passed"
             },
             "line": 6,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 502711600,
+              "duration": 745789500,
               "status": "passed"
             },
             "line": 7,
@@ -59,7 +59,7 @@
           },
           {
             "result": {
-              "duration": 3717497900,
+              "duration": 4264587600,
               "status": "passed"
             },
             "line": 8,
@@ -71,7 +71,7 @@
           },
           {
             "result": {
-              "duration": 1205306400,
+              "duration": 903855700,
               "status": "passed"
             },
             "line": 9,
@@ -83,7 +83,7 @@
           },
           {
             "result": {
-              "duration": 1450952000,
+              "duration": 1437974700,
               "status": "passed"
             },
             "line": 10,
@@ -95,13 +95,13 @@
           },
           {
             "result": {
-              "duration": 1176149300,
+              "duration": 236738900,
               "status": "passed"
             },
             "line": 11,
-            "name": "Verify that the price has seen on the screen and email address has a warning message",
+            "name": "Verify that the price has been seen on the screen and email address has a warning message",
             "match": {
-              "location": "com.step_definitions.MainPage_StepDefinition.verify_that_the_price_has_seen_on_the_screen_and_email_address_has_a_warning_message()"
+              "location": "com.step_definitions.MainPage_StepDefinition.verify_that_the_price_has_been_seen_on_the_screen_and_email_address_has_a_warning_message()"
             },
             "keyword": "Then "
           }
